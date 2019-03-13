@@ -19,6 +19,11 @@
 		6CA8878E22394A7F005E9D36 /* BooksDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8878D22394A7F005E9D36 /* BooksDataSource.swift */; };
 		6CA88791223952A7005E9D36 /* honzikova-cesta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA88790223952A7005E9D36 /* honzikova-cesta.jpg */; };
 		6CA8879422395367005E9D36 /* Book-DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8879322395367005E9D36 /* Book-DetailViewController.swift */; };
+		6CA8879C2239715C005E9D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8879B2239715C005E9D36 /* AppDelegate.swift */; };
+		6CA8879E2239715C005E9D36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8879D2239715C005E9D36 /* ViewController.swift */; };
+		6CA887A12239715C005E9D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA8879F2239715C005E9D36 /* Main.storyboard */; };
+		6CA887A32239715D005E9D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA887A22239715D005E9D36 /* Assets.xcassets */; };
+		6CA887A62239715D005E9D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA887A42239715D005E9D36 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +41,24 @@
 		6CA8878D22394A7F005E9D36 /* BooksDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksDataSource.swift; sourceTree = "<group>"; };
 		6CA88790223952A7005E9D36 /* honzikova-cesta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "honzikova-cesta.jpg"; path = "../../../Downloads/honzikova-cesta.jpg"; sourceTree = "<group>"; };
 		6CA8879322395367005E9D36 /* Book-DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book-DetailViewController.swift"; sourceTree = "<group>"; };
+		6CA887992239715C005E9D36 /* TabDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA8879B2239715C005E9D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CA8879D2239715C005E9D36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CA887A02239715C005E9D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CA887A22239715D005E9D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CA887A52239715D005E9D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CA887A72239715D005E9D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6CA8876922393642005E9D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA887962239715C005E9D36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				6CA8876E22393642005E9D36 /* IZA-2019-cvika-2 */,
+				6CA8879A2239715C005E9D36 /* TabDemo */,
 				6CA8876D22393642005E9D36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				6CA8876C22393642005E9D36 /* IZA-2019-cvika-2.app */,
+				6CA887992239715C005E9D36 /* TabDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +138,19 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
+		6CA8879A2239715C005E9D36 /* TabDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6CA8879B2239715C005E9D36 /* AppDelegate.swift */,
+				6CA8879D2239715C005E9D36 /* ViewController.swift */,
+				6CA8879F2239715C005E9D36 /* Main.storyboard */,
+				6CA887A22239715D005E9D36 /* Assets.xcassets */,
+				6CA887A42239715D005E9D36 /* LaunchScreen.storyboard */,
+				6CA887A72239715D005E9D36 /* Info.plist */,
+			);
+			path = TabDemo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +171,23 @@
 			productReference = 6CA8876C22393642005E9D36 /* IZA-2019-cvika-2.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6CA887982239715C005E9D36 /* TabDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA887A82239715D005E9D36 /* Build configuration list for PBXNativeTarget "TabDemo" */;
+			buildPhases = (
+				6CA887952239715C005E9D36 /* Sources */,
+				6CA887962239715C005E9D36 /* Frameworks */,
+				6CA887972239715C005E9D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabDemo;
+			productName = TabDemo;
+			productReference = 6CA887992239715C005E9D36 /* TabDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,6 +199,9 @@
 				ORGANIZATIONNAME = "Martin Hruby";
 				TargetAttributes = {
 					6CA8876B22393642005E9D36 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6CA887982239715C005E9D36 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -166,6 +220,7 @@
 			projectRoot = "";
 			targets = (
 				6CA8876B22393642005E9D36 /* IZA-2019-cvika-2 */,
+				6CA887982239715C005E9D36 /* TabDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +234,16 @@
 				6CA8877D22393645005E9D36 /* LaunchScreen.storyboard in Resources */,
 				6CA8877A22393645005E9D36 /* Assets.xcassets in Resources */,
 				6CA8877522393643005E9D36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA887972239715C005E9D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA887A62239715D005E9D36 /* LaunchScreen.storyboard in Resources */,
+				6CA887A32239715D005E9D36 /* Assets.xcassets in Resources */,
+				6CA887A12239715C005E9D36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +265,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6CA887952239715C005E9D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA8879E2239715C005E9D36 /* ViewController.swift in Sources */,
+				6CA8879C2239715C005E9D36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -215,6 +289,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				6CA8877C22393645005E9D36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA8879F2239715C005E9D36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA887A02239715C005E9D36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA887A42239715D005E9D36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA887A52239715D005E9D36 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -374,6 +464,42 @@
 			};
 			name = Release;
 		};
+		6CA887A92239715D005E9D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXZG34XTK9;
+				INFOPLIST_FILE = TabDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.vutbr.fit.TabDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CA887AA2239715D005E9D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXZG34XTK9;
+				INFOPLIST_FILE = TabDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.vutbr.fit.TabDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -391,6 +517,15 @@
 			buildConfigurations = (
 				6CA8878222393645005E9D36 /* Debug */,
 				6CA8878322393645005E9D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA887A82239715D005E9D36 /* Build configuration list for PBXNativeTarget "TabDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA887A92239715D005E9D36 /* Debug */,
+				6CA887AA2239715D005E9D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
