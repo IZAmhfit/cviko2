@@ -40,7 +40,7 @@ class BookTableViewCell: UITableViewCell {
         Author.text = book!.author
         
         //
-        BookCover.image = Book.__coverHonzikovaCesta
+        BookCover.image = book!.coverToPresent
     }
 
     //

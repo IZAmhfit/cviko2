@@ -29,10 +29,10 @@ class BookDetailViewController: UITableViewController {
             //
             book.author = _author
             book.title = _title
+            
+            //
+            AppDelegate.shared.booksDB.updated(aBook: book)
         }
-        
-        //
-        AppDelegate.shared.booksDB.updated(aBook: book)
     }
     
     // ----------------------------------------------------------------
