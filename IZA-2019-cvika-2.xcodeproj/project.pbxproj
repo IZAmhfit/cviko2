@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		6CA8877022393642005E9D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8876F22393642005E9D36 /* AppDelegate.swift */; };
-		6CA8877222393642005E9D36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8877122393642005E9D36 /* ViewController.swift */; };
+		6CA8877222393642005E9D36 /* Books-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8877122393642005E9D36 /* Books-ViewController.swift */; };
 		6CA8877522393643005E9D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA8877322393643005E9D36 /* Main.storyboard */; };
 		6CA8877822393643005E9D36 /* IZA_2019_cvika_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8877622393643005E9D36 /* IZA_2019_cvika_2.xcdatamodeld */; };
 		6CA8877A22393645005E9D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA8877922393645005E9D36 /* Assets.xcassets */; };
 		6CA8877D22393645005E9D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA8877B22393645005E9D36 /* LaunchScreen.storyboard */; };
+		6CA8878622393C5B005E9D36 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8878522393C5B005E9D36 /* Book.swift */; };
+		6CA8878A22393F01005E9D36 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8878922393F01005E9D36 /* BookTableViewCell.swift */; };
+		6CA8878C223942AE005E9D36 /* BooksDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8878B223942AE005E9D36 /* BooksDB.swift */; };
+		6CA8878E22394A7F005E9D36 /* BooksDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8878D22394A7F005E9D36 /* BooksDataSource.swift */; };
+		6CA88791223952A7005E9D36 /* honzikova-cesta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA88790223952A7005E9D36 /* honzikova-cesta.jpg */; };
+		6CA8879422395367005E9D36 /* Book-DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8879322395367005E9D36 /* Book-DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6CA8876C22393642005E9D36 /* IZA-2019-cvika-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IZA-2019-cvika-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA8876F22393642005E9D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6CA8877122393642005E9D36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CA8877122393642005E9D36 /* Books-ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Books-ViewController.swift"; sourceTree = "<group>"; };
 		6CA8877422393643005E9D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CA8877722393643005E9D36 /* IZA_2019_cvika_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IZA_2019_cvika_2.xcdatamodel; sourceTree = "<group>"; };
 		6CA8877922393645005E9D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CA8877C22393645005E9D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CA8877E22393645005E9D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA8878522393C5B005E9D36 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		6CA8878922393F01005E9D36 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		6CA8878B223942AE005E9D36 /* BooksDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksDB.swift; sourceTree = "<group>"; };
+		6CA8878D22394A7F005E9D36 /* BooksDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksDataSource.swift; sourceTree = "<group>"; };
+		6CA88790223952A7005E9D36 /* honzikova-cesta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "honzikova-cesta.jpg"; path = "../../../Downloads/honzikova-cesta.jpg"; sourceTree = "<group>"; };
+		6CA8879322395367005E9D36 /* Book-DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book-DetailViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +68,11 @@
 		6CA8876E22393642005E9D36 /* IZA-2019-cvika-2 */ = {
 			isa = PBXGroup;
 			children = (
+				6CA887922239534E005E9D36 /* View Controllers */,
+				6CA8878F22395290005E9D36 /* Pictures */,
+				6CA8878822393EE7005E9D36 /* Views */,
+				6CA8878422393C44005E9D36 /* Model */,
 				6CA8876F22393642005E9D36 /* AppDelegate.swift */,
-				6CA8877122393642005E9D36 /* ViewController.swift */,
 				6CA8877322393643005E9D36 /* Main.storyboard */,
 				6CA8877922393645005E9D36 /* Assets.xcassets */,
 				6CA8877B22393645005E9D36 /* LaunchScreen.storyboard */,
@@ -65,6 +80,41 @@
 				6CA8877622393643005E9D36 /* IZA_2019_cvika_2.xcdatamodeld */,
 			);
 			path = "IZA-2019-cvika-2";
+			sourceTree = "<group>";
+		};
+		6CA8878422393C44005E9D36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CA8878522393C5B005E9D36 /* Book.swift */,
+				6CA8878B223942AE005E9D36 /* BooksDB.swift */,
+				6CA8878D22394A7F005E9D36 /* BooksDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CA8878822393EE7005E9D36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CA8878922393F01005E9D36 /* BookTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6CA8878F22395290005E9D36 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				6CA88790223952A7005E9D36 /* honzikova-cesta.jpg */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+		6CA887922239534E005E9D36 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CA8877122393642005E9D36 /* Books-ViewController.swift */,
+				6CA8879322395367005E9D36 /* Book-DetailViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA88791223952A7005E9D36 /* honzikova-cesta.jpg in Resources */,
 				6CA8877D22393645005E9D36 /* LaunchScreen.storyboard in Resources */,
 				6CA8877A22393645005E9D36 /* Assets.xcassets in Resources */,
 				6CA8877522393643005E9D36 /* Main.storyboard in Resources */,
@@ -138,8 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CA8877222393642005E9D36 /* ViewController.swift in Sources */,
+				6CA8878622393C5B005E9D36 /* Book.swift in Sources */,
+				6CA8877222393642005E9D36 /* Books-ViewController.swift in Sources */,
 				6CA8877822393643005E9D36 /* IZA_2019_cvika_2.xcdatamodeld in Sources */,
+				6CA8878A22393F01005E9D36 /* BookTableViewCell.swift in Sources */,
+				6CA8879422395367005E9D36 /* Book-DetailViewController.swift in Sources */,
+				6CA8878C223942AE005E9D36 /* BooksDB.swift in Sources */,
+				6CA8878E22394A7F005E9D36 /* BooksDataSource.swift in Sources */,
 				6CA8877022393642005E9D36 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
